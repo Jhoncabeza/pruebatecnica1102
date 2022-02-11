@@ -3,7 +3,7 @@ import axios from "axios"
 import { useFormik } from 'formik';
 import { url } from '../apis/apis'
 import { db } from '../firebaseConfig';
-import { addDoc, collection, deleteDoc, doc, getDocs } from 'firebase/firestore';
+import { addDoc, collection, getDocs } from 'firebase/firestore';
 
 
 export default function Buscador() {
